@@ -1,0 +1,10 @@
+# ===================================
+#  Relation Behavior Config
+# ===================================
+
+roles:
+    label: Role
+    list: ~/plugins/october/test/models/role/columns.yaml
+    form: ~/plugins/october/test/models/role/fields.yaml
+    view:
+        showSearch: true

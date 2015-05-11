@@ -1,0 +1,31 @@
+.stat-container {
+    width: 450px;
+    min-height: 450px;
+    margin: 25px 70px 25px 0;
+    border-left: 10px solid #f9f9f9;
+    padding-left: 20px;
+}
+
+.stat-container h4 {
+    color: #7e8c8d;
+    font-size: 14px;
+    font-weight: 600;
+    margin-bottom: 30px;
+    margin-top: 0;
+    text-transform: uppercase;
+}
+
+
+#iwstats-toolbar .chart-legend {
+    vertical-align: sub;
+    margin-bottom:  20px;
+}
+
+#iwstats-toolbar div.scoreboard {
+    margin-bottom: 0;
+}
+
+#iwstats-toolbar .canvas span {
+    font-size: 20px;
+    margin-top: -15px;
+}

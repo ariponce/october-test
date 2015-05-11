@@ -1,0 +1,11 @@
+
+list:  ~/plugins/october/test/models/role/columns.yaml
+noRecordsMessage: backend::lang.list.no_records
+recordsPerPage: 10
+recordOnClick: $.oc.postStats.onView(:id)
+readOnly: false
+modelClass: October\Test\Models\Role
+toolbar:
+    buttons: ~/plugins/october/test/reportwidgets/poststats/partials/_list_toolbar.htm
+    search:
+        prompt: backend::lang.list.search_prompt
